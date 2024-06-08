@@ -5,7 +5,7 @@ var app = require('../helloworld')
 
 describe('main page', function() { 
   before(function() {
-    this.browser = new Browser({ site: 'http://localhost:3000' })
+    this.browser = new Browser({ site: 'http://localhost:3333' })
   })
   before(function(done) {
     this.browser.visit('/', done)
