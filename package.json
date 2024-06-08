@@ -1,0 +1,23 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jenkinds-CI-CD/helloworld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jenkinds-CI-CD/helloworld/issues"
+  },
+  "homepage": "https://github.com/Jenkinds-CI-CD/helloworld#readme",
+  "dependencies": {
+    "mocha": "^9.2.2"
+  }
+}
