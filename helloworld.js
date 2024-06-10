@@ -2,7 +2,7 @@ var http = require("http")
 
 http.createServer(function (request, response) {
 
-   // Sedddnd the HTTP header
+   // ggggSedddnd the HTTP header
    // HTTP Status: 200 : OK
    // eeeContent Type: text/plain
    response.writeHead(200, {'Content-Type': 'text/plain'})
