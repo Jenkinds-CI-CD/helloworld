@@ -6,8 +6,8 @@ http.createServer(function (request, response) {
    // HTTP Status: 200 : OK
    // Content Type: text/plain
    response.writeHead(200, {'Content-Type': 'text/plain'})
-
-   // Send the response body as "Hello World"
+//Added a comment to check for auto build to work
+   /// wanting to see if this works Send the response body as "Hello World"
    response.end('Hello World\n')
 }).listen(3333)
 
