@@ -3,7 +3,7 @@ var http = require("http")
 http.createServer(function (request, response) {
 
    // ggggSedddnd the HTTP header
-   // HTTP Status: 200 : OK
+   //// HTTP Status: 200 : OK
    // eeeContent Type: text/plain
    response.writeHead(200, {'Content-Type': 'text/plain'})
 //AAAdded a comment to check for auto build to work
